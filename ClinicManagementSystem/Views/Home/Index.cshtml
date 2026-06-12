@@ -1,0 +1,67 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Page Navigation (Only for Home Page) -->
+<div class="text-lg-end py-3 bg-light shadow-sm">
+    <div class="container">
+
+        <a href="#home" class="nav-btn">Home</a>
+        <a href="#services" class="nav-btn">Services</a>
+        <a href="#contact" class="nav-btn">Contact</a>
+        <a href="/Auth/Login" class="nav-btn login-btn">Login</a>
+
+    </div>
+</div>
+
+<div id="home" class="hero-section text-white d-flex align-items-center"
+     style="height: 90vh;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/Images/doctor-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;">
+
+    <div class="container text-center">
+        <h1 class="display-4 fw-bold">
+            Transforming Lives Through Excellence in Healthcare
+        </h1>
+
+        <p class="lead mt-3">
+            Our dedicated physicians and specialists deliver compassionate, evidence-based care.
+        </p>
+
+        <a href="/Auth/Login" class="btn btn-primary btn-lg mt-4">
+            Book Appointment
+        </a>
+    </div>
+</div>
+
+<!-- Services Section -->
+<section id ="services" class="py-5 bg-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Our Services</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3">
+                    <h5>General Consultation</h5>
+                    <p>Comprehensive checkups and diagnosis by experienced doctors.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3">
+                    <h5>Specialist Care</h5>
+                    <p>Access to expert specialists across multiple medical fields.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card shadow-sm p-3">
+                    <h5>Lab & Diagnostics</h5>
+                    <p>Advanced lab tests and imaging services with quick results.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
